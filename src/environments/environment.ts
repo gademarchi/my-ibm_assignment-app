@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+};
+
+export const config = {
+  apiUrl: 'https://random-data-api.com/api/coffee/random_coffee',
 };
 
 /*
